@@ -1,2 +1,2 @@
-web: gunicorn DjangoAPI.wsgi
-python manage.py runserver
+web: gunicorn DjangoAPI.wsgi:application
+manage.py runserver
