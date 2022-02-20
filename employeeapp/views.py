@@ -1,10 +1,3 @@
-from curses.ascii import EM
-import imp
-from multiprocessing import managers
-from pickle import FALSE
-import re
-from tkinter.messagebox import RETRY
-from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from django.http.response import JsonResponse
